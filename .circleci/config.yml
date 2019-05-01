@@ -1,0 +1,79 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: circleci/node:10
+    working_directory: ~/quiz
+    steps:
+      - checkout
+
+      - restore_cache:
+          keys:
+            - yarn-v1-{{ checksum "yarn.lock" }}
+            - yarn-v1-
+
+      - restore_cache:
+          keys:
+            - node-v1-{{ checksum "package.json" }}-{{ arch }}
+            - node-v1-
+
+      - run: yarn install
+
+      - save_cache:
+          key: yarn-v1-{{ checksum "yarn.lock" }}-{{ arch }}
+          paths:
+            - ~/.cache/yarn
+
+      - save_cache:
+          key: node-v1-{{ checksum "package.json" }}-{{ arch }}
+          paths:
+            - node_modules
+  test:
+    docker:
+      - image: circleci/node:10
+    working_directory: ~/quiz
+    steps:
+      - checkout
+
+      - restore_cache:
+          keys:
+            - yarn-v1-{{ checksum "yarn.lock" }}
+            - yarn-v1-
+
+      - restore_cache:
+          keys:
+            - node-v1-{{ checksum "package.json" }}-{{ arch }}
+            - node-v1-
+
+      - run:
+          name: jest tests
+          command: |
+            mkdir -p test-results/jest
+            yarn test
+          environment:
+            jest_junit_output: test-results/jest/junit.xml
+
+      - persist_to_workspace:
+            root: ~/quiz
+            paths:
+              - node_modules
+
+      - store_test_results:
+            path: test-results
+
+      - store_artifacts:
+            path: test-results
+
+
+workflows:
+  version: 2
+  build-and-deploy-on-hold:
+    jobs:
+      - build:
+          filters:
+            branches:
+              only:
+                - master
+      - test:
+          requires:
+            - build

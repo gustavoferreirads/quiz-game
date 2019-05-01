@@ -1,0 +1,109 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders a Quiz  1`] = `
+<Container
+  style={
+    Object {
+      "backgroundColor": "#eee",
+      "flex": 1,
+      "justifyContent": "flex-start",
+      "padding": 20,
+    }
+  }
+>
+  <Component
+    style={
+      Object {
+        "color": "#333",
+        "fontSize": 22,
+        "marginBottom": 40,
+        "marginTop": 40,
+        "textAlign": "center",
+      }
+    }
+  >
+    Entertainment: Film
+  </Component>
+  <Component
+    style={
+      Object {
+        "backgroundColor": "#FFF",
+        "borderRadius": 10,
+        "height": 375,
+        "width": "100%",
+      }
+    }
+  >
+    <Component
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#FF9982",
+          "borderTopEndRadius": 10,
+          "borderTopLeftRadius": 10,
+          "height": 175,
+          "justifyContent": "center",
+          "padding": 10,
+        }
+      }
+    >
+      <Component
+        style={
+          Object {
+            "alignItems": "center",
+            "flex": 1,
+            "justifyContent": "center",
+            "textAlign": "center",
+          }
+        }
+      >
+        <Component
+          style={
+            Object {
+              "color": "#FFF",
+              "fontSize": 16,
+              "fontWeight": "bold",
+              "textAlign": "center",
+              "textTransform": "uppercase",
+            }
+          }
+        >
+          &quot;Cube&quot;, &quot;Cube 2: Hypercube&quot; and &quot;Cube Zero&quot; were directed by the same person.
+        </Component>
+      </Component>
+      <Component
+        style={
+          Object {
+            "color": "#FFF",
+            "fontSize": 16,
+            "fontWeight": "bold",
+          }
+        }
+      >
+        1
+         of 
+        10
+      </Component>
+    </Component>
+    <Component
+      style={
+        Object {
+          "flex": 1,
+          "padding": 10,
+        }
+      }
+    >
+      <Answer
+        onPress={[Function]}
+        option="A"
+        text="True"
+      />
+      <Answer
+        onPress={[Function]}
+        option="B"
+        text="False"
+      />
+    </Component>
+  </Component>
+</Container>
+`;

@@ -1,0 +1,130 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should do answer 1`] = `
+Object {
+  "answers": Array [
+    "True",
+  ],
+  "current": Object {
+    "index": 1,
+    "position": 2,
+    "wrapQuestion": Object {
+      "category": "General Knowledge",
+      "correct_answer": "True",
+      "difficulty": "hard",
+      "incorrect_answers": Array [
+        "False",
+      ],
+      "question": "In Scandinavian languages, the letter Å means river.",
+      "type": "boolean",
+    },
+  },
+  "percent": 0,
+  "questions": Array [
+    Object {
+      "category": "Entertainment: Film",
+      "correct_answer": "False",
+      "difficulty": "hard",
+      "incorrect_answers": Array [
+        "True",
+      ],
+      "question": "\\"Cube\\", \\"Cube 2: Hypercube\\" and \\"Cube Zero\\" were directed by the same person.",
+      "type": "boolean",
+    },
+    Object {
+      "category": "General Knowledge",
+      "correct_answer": "True",
+      "difficulty": "hard",
+      "incorrect_answers": Array [
+        "False",
+      ],
+      "question": "In Scandinavian languages, the letter Å means river.",
+      "type": "boolean",
+    },
+  ],
+  "score": 0,
+  "size": 2,
+}
+`;
+
+exports[`should do final answer and generate result 1`] = `
+Object {
+  "answers": Array [
+    Object {
+      "category": "Entertainment: Film",
+      "correct_answer": "False",
+      "difficulty": "hard",
+      "incorrect_answers": Array [
+        "True",
+      ],
+      "isCorrect": false,
+      "question": "\\"Cube\\", \\"Cube 2: Hypercube\\" and \\"Cube Zero\\" were directed by the same person.",
+      "type": "boolean",
+    },
+    Object {
+      "category": "General Knowledge",
+      "correct_answer": "True",
+      "difficulty": "hard",
+      "incorrect_answers": Array [
+        "False",
+      ],
+      "isCorrect": true,
+      "question": "In Scandinavian languages, the letter Å means river.",
+      "type": "boolean",
+    },
+  ],
+  "current": Object {
+    "index": -1,
+    "wrapQuestion": Object {},
+  },
+  "percent": 50,
+  "questions": Array [],
+  "score": 1,
+  "size": 0,
+}
+`;
+
+exports[`should find questions and define current question 1`] = `
+Object {
+  "answers": Array [],
+  "current": Object {
+    "index": 0,
+    "position": 1,
+    "wrapQuestion": Object {
+      "category": "Entertainment: Film",
+      "correct_answer": "False",
+      "difficulty": "hard",
+      "incorrect_answers": Array [
+        "True",
+      ],
+      "question": "\\"Cube\\", \\"Cube 2: Hypercube\\" and \\"Cube Zero\\" were directed by the same person.",
+      "type": "boolean",
+    },
+  },
+  "percent": 0,
+  "questions": Array [
+    Object {
+      "category": "Entertainment: Film",
+      "correct_answer": "False",
+      "difficulty": "hard",
+      "incorrect_answers": Array [
+        "True",
+      ],
+      "question": "\\"Cube\\", \\"Cube 2: Hypercube\\" and \\"Cube Zero\\" were directed by the same person.",
+      "type": "boolean",
+    },
+    Object {
+      "category": "General Knowledge",
+      "correct_answer": "True",
+      "difficulty": "hard",
+      "incorrect_answers": Array [
+        "False",
+      ],
+      "question": "In Scandinavian languages, the letter Å means river.",
+      "type": "boolean",
+    },
+  ],
+  "score": 0,
+  "size": 2,
+}
+`;

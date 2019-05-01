@@ -1,0 +1,103 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders a Home  1`] = `
+<Container
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <Component
+    style={
+      Object {
+        "flex": 1,
+        "justifyContent": "center",
+      }
+    }
+  >
+    <Component
+      style={
+        Object {
+          "fontSize": 24,
+          "fontWeight": "bold",
+          "textAlign": "center",
+        }
+      }
+    >
+      Welcome to the
+    </Component>
+    <Component
+      style={
+        Object {
+          "fontSize": 24,
+          "fontWeight": "bold",
+          "textAlign": "center",
+        }
+      }
+    >
+      Trivia Challenge!
+    </Component>
+  </Component>
+  <Component
+    style={
+      Object {
+        "flexGrow": 1,
+      }
+    }
+  >
+    <Component
+      style={
+        Object {
+          "color": "#333",
+          "fontSize": 20,
+          "textAlign": "center",
+        }
+      }
+    >
+      You will be presented with 10 True or False questions.
+    </Component>
+  </Component>
+  <Component
+    style={
+      Object {
+        "flexGrow": 1,
+      }
+    }
+  >
+    <Component
+      style={
+        Array [
+          Object {
+            "color": "#333",
+            "fontSize": 20,
+            "textAlign": "center",
+          },
+          Object {
+            "fontWeight": "bold",
+          },
+        ]
+      }
+    >
+      Can you score 100%?
+    </Component>
+  </Component>
+  <Component
+    style={
+      Object {
+        "flexGrow": 1,
+      }
+    }
+  >
+    <Button
+      onPress={[Function]}
+      style={Object {}}
+      type="inline"
+    >
+      <Component>
+        BEGIN
+      </Component>
+    </Button>
+  </Component>
+</Container>
+`;

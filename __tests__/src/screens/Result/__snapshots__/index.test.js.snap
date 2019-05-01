@@ -1,0 +1,168 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders a Result  1`] = `
+<Container
+  style={
+    Object {
+      "backgroundColor": "#eee",
+      "flex": 1,
+    }
+  }
+>
+  <Component
+    style={
+      Object {
+        "alignItems": "center",
+        "flexGrow": 1,
+      }
+    }
+  >
+    <Component
+      style={
+        Object {
+          "color": "#666",
+          "fontSize": 22,
+          "textAlign": "center",
+        }
+      }
+    >
+      You scored
+    </Component>
+    <Component
+      style={
+        Object {
+          "marginBottom": 20,
+          "marginTop": 20,
+        }
+      }
+    >
+      <PercentageCircle
+        bgColor="#eee"
+        borderWidth={10}
+        color="#FF9982"
+        containerStyle={null}
+        percent={20}
+        radius={70}
+        shadowColor="rgba(255, 153, 130, 0.3)"
+      >
+        <Component
+          style={
+            Object {
+              "color": "#666",
+              "fontSize": 22,
+              "textAlign": "center",
+            }
+          }
+        >
+          100
+          /
+          2
+        </Component>
+      </PercentageCircle>
+    </Component>
+    <Component
+      style={
+        Object {
+          "color": "#666",
+          "fontSize": 20,
+          "textAlign": "center",
+        }
+      }
+    >
+      You got 
+      20
+      % of the answers correct
+    </Component>
+    <Component
+      style={
+        Object {
+          "color": "#666",
+          "fontSize": 20,
+          "textAlign": "center",
+        }
+      }
+    >
+      Congratulations!
+    </Component>
+  </Component>
+  <Component
+    style={
+      Object {
+        "backgroundColor": "#FFF",
+        "borderRadius": 20,
+        "height": 320,
+        "marginTop": 10,
+        "padding": 20,
+        "paddingBottom": 0,
+      }
+    }
+  >
+    <FlatList
+      data={
+        Array [
+          Object {
+            "category": "Entertainment: Film",
+            "correct_answer": "False",
+            "difficulty": "hard",
+            "incorrect_answers": Array [
+              "True",
+            ],
+            "isCorrect": true,
+            "question": "&quot;Cube&quot;, &quot;Cube 2: Hypercube&quot; and &quot;Cube Zero&quot; were directed by the same person.",
+            "type": "boolean",
+          },
+          Object {
+            "category": "General Knowledge",
+            "correct_answer": "True",
+            "difficulty": "hard",
+            "incorrect_answers": Array [
+              "False",
+            ],
+            "question": "In Scandinavian languages, the letter &Aring; means river.",
+            "type": "boolean",
+          },
+        ]
+      }
+      disableVirtualization={false}
+      horizontal={false}
+      initialNumToRender={10}
+      keyExtractor={[Function]}
+      maxToRenderPerBatch={10}
+      numColumns={1}
+      onEndReachedThreshold={2}
+      renderItem={[Function]}
+      scrollEventThrottle={50}
+      updateCellsBatchingPeriod={50}
+      windowSize={21}
+    />
+  </Component>
+  <Component
+    style={
+      Object {
+        "flexGrow": 1,
+        "justifyContent": "space-between",
+        "padding": 10,
+      }
+    }
+  >
+    <Button
+      onPress={[Function]}
+      style={Object {}}
+      type="inline"
+    >
+      <Component>
+        PLAY AGAIN?
+      </Component>
+    </Button>
+    <Button
+      onPress={[Function]}
+      style={Object {}}
+      type="outline"
+    >
+      <Component>
+        HOME
+      </Component>
+    </Button>
+  </Component>
+</Container>
+`;

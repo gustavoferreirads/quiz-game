@@ -1,0 +1,151 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders a Button  1`] = `
+<TouchableOpacity
+  activeOpacity={0.2}
+  onPress={[Function]}
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "borderRadius": 30,
+        "fontWeight": "bold",
+        "height": 40,
+        "justifyContent": "center",
+        "paddingHorizontal": 20,
+        "width": 150,
+      },
+      Object {
+        "backgroundColor": "red",
+      },
+      Object {
+        "backgroundColor": "#FF9982",
+      },
+    ]
+  }
+>
+  <Component
+    style={
+      Array [
+        Object {
+          "fontSize": 16,
+        },
+        Object {
+          "color": "#FFF",
+        },
+      ]
+    }
+  >
+    <Component>
+      Label
+    </Component>
+  </Component>
+</TouchableOpacity>
+`;
+
+exports[`renders a Button with style "inline" 1`] = `
+<TouchableOpacity
+  activeOpacity={0.2}
+  onPress={[Function]}
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "borderRadius": 30,
+        "fontWeight": "bold",
+        "height": 40,
+        "justifyContent": "center",
+        "paddingHorizontal": 20,
+        "width": 150,
+      },
+      Object {},
+      Object {
+        "backgroundColor": "#FF9982",
+      },
+    ]
+  }
+>
+  <Component
+    style={
+      Array [
+        Object {
+          "fontSize": 16,
+        },
+        Object {
+          "color": "#FFF",
+        },
+      ]
+    }
+  />
+</TouchableOpacity>
+`;
+
+exports[`renders a Button with style "outline" 1`] = `
+<TouchableOpacity
+  activeOpacity={0.2}
+  onPress={[Function]}
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "borderRadius": 30,
+        "fontWeight": "bold",
+        "height": 40,
+        "justifyContent": "center",
+        "paddingHorizontal": 20,
+        "width": 150,
+      },
+      Object {},
+      Object {
+        "backgroundColor": "#FF9982",
+      },
+    ]
+  }
+>
+  <Component
+    style={
+      Array [
+        Object {
+          "fontSize": 16,
+        },
+        Object {
+          "color": "#FFF",
+        },
+      ]
+    }
+  />
+</TouchableOpacity>
+`;
+
+exports[`renders a Button with style nonexistent  1`] = `
+<TouchableOpacity
+  activeOpacity={0.2}
+  onPress={[Function]}
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "borderRadius": 30,
+        "fontWeight": "bold",
+        "height": 40,
+        "justifyContent": "center",
+        "paddingHorizontal": 20,
+        "width": 150,
+      },
+      Object {},
+      undefined,
+    ]
+  }
+>
+  <Component
+    style={
+      Array [
+        Object {
+          "fontSize": 16,
+        },
+        undefined,
+      ]
+    }
+  />
+</TouchableOpacity>
+`;

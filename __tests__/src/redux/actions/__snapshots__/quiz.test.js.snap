@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`do answer 1`] = `
+Array [
+  Object {
+    "answer": "True",
+    "type": "ANSWER",
+  },
+]
+`;
+
+exports[`fetch questions 1`] = `
+Array [
+  Object {
+    "payload": Promise {
+      "_40": 0,
+      "_55": Object {
+        "data": Object {
+          "results": Array [
+            Object {
+              "id": 1,
+              "question": "question",
+            },
+          ],
+        },
+      },
+      "_65": 1,
+      "_72": null,
+    },
+    "type": "QUESTIONS",
+  },
+]
+`;

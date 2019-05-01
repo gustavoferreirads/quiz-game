@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders a Answer  1`] = `
+<TouchableOpacity
+  activeOpacity={0.2}
+  onPress={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "borderColor": "#eee",
+      "borderRadius": 40,
+      "borderStyle": "solid",
+      "borderWidth": 2,
+      "flexDirection": "row",
+      "marginTop": 20,
+      "padding": 10,
+      "width": "100%",
+    }
+  }
+>
+  <Component
+    style={
+      Object {
+        "alignItems": "center",
+        "borderColor": "#FF9982",
+        "borderRadius": 32,
+        "borderStyle": "solid",
+        "borderWidth": 2,
+        "height": 32,
+        "justifyContent": "center",
+        "marginRight": 10,
+        "width": 32,
+      }
+    }
+  >
+    <Component
+      style={
+        Object {
+          "color": "#FF9982",
+          "fontSize": 16,
+          "fontWeight": "bold",
+          "textAlign": "center",
+        }
+      }
+    >
+      A
+    </Component>
+  </Component>
+  <Component
+    style={
+      Object {
+        "color": "#666",
+        "fontSize": 14,
+        "fontWeight": "bold",
+        "textTransform": "uppercase",
+      }
+    }
+  >
+    YES
+  </Component>
+</TouchableOpacity>
+`;

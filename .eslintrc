@@ -1,0 +1,59 @@
+{
+  "parser": "babel-eslint",
+  "plugins": [
+    "react",
+    "jest",
+    "prettier"
+  ],
+  "extends": [
+    "airbnb",
+    "plugin:prettier/recommended",
+    "prettier/react"
+  ],
+  "globals": {
+    "process": true,
+    "React": true,
+    "fetch": true,
+    "describe": true
+  },
+  "root": true,
+  "rules": {
+    "react/jsx-filename-extension": 0,
+    "import/prefer-default-export": 0,
+    "jsx-a11y/interactive-supports-focus": 0,
+    "jsx-a11y/click-events-have-key-events": 0,
+    "react/no-array-index-key": 0,
+    "react/forbid-prop-types": 0,
+    "linebreak-style": [
+      "warn",
+      "unix"
+    ],
+    "import/no-extraneous-dependencies": [
+      "error",
+      {
+        "devDependencies": true,
+        "optionalDependencies": false,
+        "peerDependencies": false
+      }
+    ],
+    "prettier/prettier": [
+      "error",
+      {
+        "trailingComma": "all",
+        "singleQuote": true,
+        "printWidth": 100
+      }
+    ],
+    "quotes": [
+      "error"
+    ],
+    "jsx-a11y/label-has-associated-control": 0,
+    "jsx-a11y/label-has-for": 0
+  },
+  "env": {
+    "es6": true,
+    "jest": true,
+    "browser": true,
+    "node": true
+  }
+}

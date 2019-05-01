@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Loading HOC renders a Loading  1`] = `
+<ContextProvider
+  value={
+    Object {
+      "store": Object {
+        "clearActions": [Function],
+        "dispatch": [Function],
+        "getActions": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+      },
+      "storeState": Object {
+        "Quiz": Object {
+          "questions": Array [],
+        },
+      },
+    }
+  }
+>
+  <Connect(WithLoading) />
+</ContextProvider>
+`;
+
+exports[`Loading HOC renders a internal Component 1`] = `
+<ContextProvider
+  value={
+    Object {
+      "store": Object {
+        "clearActions": [Function],
+        "dispatch": [Function],
+        "getActions": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+      },
+      "storeState": Object {
+        "Quiz": Object {
+          "questions": Array [
+            Object {
+              "id": 1,
+            },
+          ],
+        },
+      },
+    }
+  }
+>
+  <Connect(WithLoading) />
+</ContextProvider>
+`;
