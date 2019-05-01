@@ -2,7 +2,7 @@
 
 [![CircleCI](https://circleci.com/gh/gustavoferreirads/quiz-game/tree/master.svg?style=svg)](https://circleci.com/gh/gustavoferreirads/quiz-game/tree/master)
 
-###About
+####About
 
 This is a quiz game mobile application with 10 True or False questions. 
 In the end you can see the result as score.
