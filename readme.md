@@ -108,4 +108,4 @@ src/
 * [Axios](https://github.com/css-modules/css-modules) [ Isolated style based on each component ]
 * [React-navigation](https://reactnavigation.org/)
 
-By JoÃ£o Gustavo Ferreira dos Santos (Best Sellers)
+By JoÃ£o Gustavo Ferreira dos Santos
